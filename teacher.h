@@ -1,7 +1,9 @@
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS
 #include "Identity.h"
-#include<iostream>
+#include "orderFile.h"
+#include <iostream>
+#include <vector>
 using namespace std;
 
 class Teacher: public Identity {
